@@ -1,0 +1,129 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Research Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            padding: 20px 0;
+        }
+        .main h1 {
+            color: #333;
+        }
+        .main p {
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background: #555;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sports Research Co.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="home" class="main container">
+        <h1>Welcome to Sports Research Co.</h1>
+        <p>Your partner in cutting-edge sports analytics and research. We offer comprehensive research services to help you stay ahead in the world of sports.</p>
+        <a href="#services" class="btn">Learn More</a>
+    </div>
+    
+    <div id="services" class="main container">
+        <h2>Our Services</h2>
+        <p>At Sports Research Co., we offer a range of services tailored to meet your needs:</p>
+        <ul>
+            <li>Performance Analysis</li>
+            <li>Statistical Modeling</li>
+            <li>Player Evaluation</li>
+            <li>Team Strategy Consulting</li>
+        </ul>
+    </div>
+    
+    <div id="research" class="main container">
+        <h2>Our Research</h2>
+        <p>Explore our latest research papers and reports:</p>
+        <ul>
+            <li><a href="#">Impact of Training Regimens on Athlete Performance</a></li>
+            <li><a href="#">Predictive Analytics in Sports</a></li>
+            <li><a href="#">Team Dynamics and Winning Strategies</a></li>
+        </ul>
+    </div>
+    
+    <div id="about" class="main container">
+        <h2>About Us</h2>
+        <p>Founded in 2020, Sports Research Co. is dedicated to providing high-quality sports research and analytics. Our team of experts is passionate about improving performance and strategy through data-driven insights.</p>
+    </div>
+    
+    <div id="contact" class="main container">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Get in touch with us:</p>
+        <p>Email: <a href="mailto:info@sportsresearchco.com">info@sportsresearchco.com</a></p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Sports Ave, Research City, RC 12345</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Sports Research Co. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
